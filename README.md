@@ -82,7 +82,7 @@ Limitations
 
 Output Generated
 ----------------
-
+![ezgif com-video-to-gif](https://cloud.githubusercontent.com/assets/13764097/22053273/92c2c23e-dd75-11e6-80cf-01ca35ad0f25.gif)
 
 Changelog
 ---------
