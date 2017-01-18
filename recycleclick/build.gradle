@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'RecycleClick'
+
+    publishedGroupId = 'com.chootdev'
+    libraryName = 'RecycleClick'
+    artifact = 'recycleclick'
+
+    libraryDescription = 'Android recycler view not supports for onItemClickListner event. This library helps to wrap up and gain again the missing recycle view item click and item long click functions. This library is a project carried by Lakitha, give a visit https://github.com/LakithaRav'
+
+    siteUrl = 'https://github.com/ChathuraHettiarachchi/RecycleClick'
+    gitUrl = 'https://github.com/ChathuraHettiarachchi/RecycleClick.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'ChathuraHettiarachchi'
+    developerName = 'Chathura Hettiarachchi'
+    developerEmail = 'chathura93@yahoo.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
