@@ -1,4 +1,4 @@
-# RecycleClick
+# RecycleClick [ ![Download](https://api.bintray.com/packages/chathurahettiarachchi/maven/RecycleClick/images/download.svg) ](https://bintray.com/chathurahettiarachchi/maven/RecycleClick/_latestVersion)
 Android recycler view not supports for onItemClickListner event. This library helps to wrap up and gain the missing recycle view item click and item long click functions. This library is a project carried by Lakitha, give a visit https://github.com/LakithaRav
 
 Anyway... when talk about Android ListView and RecycleView, in old times through the development i preffer Android ListView. It already have click suport inbuilt.
