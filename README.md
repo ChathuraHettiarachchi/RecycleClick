@@ -97,6 +97,7 @@ Changelog
 ## Authors
 
 Chathura Hettiarachchi, chathura93@yahoo.com
+
 Lakitha Samarasinghe, lakitharav@gmail.com
 
 # License
