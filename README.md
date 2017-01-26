@@ -94,9 +94,10 @@ Changelog
     * Initial release
     
 
-## Author
+## Authors
 
 Chathura Hettiarachchi, chathura93@yahoo.com
+Lakitha Samarasinghe, lakitharav@gmail.com
 
 # License
 Copyright 2016 Chathura Hettiarachchi
