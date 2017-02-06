@@ -100,6 +100,8 @@ Chathura Hettiarachchi, chathura93@yahoo.com
 
 Lakitha Samarasinghe, lakitharav@gmail.com
 
+Checkout my other contributions, https://github.com/ChathuraHettiarachchi?tab=repositories
+
 # License
 Copyright 2016 Chathura Hettiarachchi
 
